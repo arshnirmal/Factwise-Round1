@@ -1,6 +1,6 @@
 package Q3;
 public class Q3 {
-    public int maxProfit(int[] prices) {
+    public int maximumProfit(int[] prices) {
         int min_price = Integer.MAX_VALUE;
         int max_profit = 0;
         for(int i = 0; i < prices.length; i++){
@@ -16,8 +16,8 @@ public class Q3 {
     public static void main(String[] args) {
         Q3 q3 = new Q3();
         int[] prices = {7,1,5,3,6,4};
-        System.out.println(q3.maxProfit(prices));
+        System.out.println(q3.maximumProfit(prices));
         prices = new int[]{7,6,4,3,1};
-        System.out.println(q3.maxProfit(prices));
+        System.out.println(q3.maximumProfit(prices));
     }
 }

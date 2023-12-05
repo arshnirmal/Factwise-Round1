@@ -1,6 +1,5 @@
 package Q1;
 public class Q1 {
-
     public int removeDuplicates(int[] arr) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
